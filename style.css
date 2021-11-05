@@ -153,7 +153,93 @@ h5 {
 footer {
     
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
+}
+
+/*Contacto*/
+
+.card {
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(27, 27, 27, 0.7), rgba(27, 27, 27, 0.7)), url(./img/fondo-2.jpg);
+    background-size: cover;
+    width: 60%;
+    border: 1px white solid;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.foto {
+    margin-top: 2em;
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.foto img {
+    width: auto;
+    height: 100%;
+    margin-left: -26px;
+}
+
+.card2 p {
+    color: white;
+    padding-top: 1em;
+    font-size: 32px;
+}
+
+.redes a img {
+    width: 4%;
+}
+
+.redes {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info label {
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    padding: 8px;
+}
+
+.info-2 label {
+    margin-top: 20px;
+}
+
+.info-2 textarea {
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    max-width: 60%;
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 60%;
+}
+
+.info-1 input {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#bcontact {
+
 }
 
 
